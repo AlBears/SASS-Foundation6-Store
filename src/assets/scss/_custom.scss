@@ -5,6 +5,7 @@ background: -moz-linear-gradient(top, #bb6cd1 0%, #4172b7 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #bb6cd1 0%,#4172b7 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #bb6cd1 0%,#4172b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb6cd1', endColorstr='#4172b7',GradientType=0 ); /* IE6-9 */
+background-attachment: fixed;
 }
 
 header {
@@ -50,4 +51,17 @@ div.responsive-menu {
 div.orbit {
   background-color: $primary-color;
   padding: rem-calc(20);
+}
+
+div.about-us {
+  margin-top: rem-calc(30);
+  i {
+    font-size: rem-calc(60);
+    margin: rem-calc(20 0);
+    display: block;
+  }
+  h3 {
+    margin-bottom: rem-calc(15);
+    text-transform: uppercase;
+  }
 }

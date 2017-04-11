@@ -127,6 +127,10 @@ div.our-designs {
   .orbit {
     background-color: $white;
     border-radius: $global-radius;
+    margin-bottom: rem-calc(20);
+    @include breakpoint(medium) {
+      margin: 0;
+    }
     blockquote {
       font-size: rem-calc(20);
     }

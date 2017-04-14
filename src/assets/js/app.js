@@ -17,6 +17,13 @@ $(window).on('changed.zf.mediaquery', function(event, newSize, oldSize) {
   }
 });
 
+var size = Foundation.MediaQuery.current;
+if (size === 'small'){
+  //$('#main-menu ul').removeClass('expanded');
+  $('#main-menu ul').addClass('vertical');
+}
+
+
 
 
 
